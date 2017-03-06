@@ -338,17 +338,7 @@ def slide_windows_cumulative(img):
         all_windows += windows
     return all_windows
 
-windows = slide_windows_cumulative(normalized_image)
-#windows = slide_window(normalized_image)
-
-hot_windows = search_windows(normalized_image, windows, svc, X_scaler, color_space=color_space, 
-                        spatial_size=spatial_size, hist_bins=hist_bins, 
-                        orient=orient, pix_per_cell=pix_per_cell, 
-                        cell_per_block=cell_per_block, 
-                        hog_channel=hog_channel, spatial_feat=spatial_feat, 
-                        hist_feat=hist_feat, hog_feat=hog_feat)                       
-
-window_img = draw_boxes(draw_image, hot_windows, color=(0, 0, 1), thick=6)                    
+                  
 
 
 #all_bboxes are the hot_windows
