@@ -5,7 +5,7 @@ The files of this project are listed as below:
 * Writeup: this README.md file you are reading now;
 * the `*.ipynb` format code: `CarND-Vehicle Detection Project Report.ipynb`;
 * the `*.py` format code: `proj5.py`; and
-* the processed video: `result.mp4`
+* the processed video: `test.mp4` and `result.mp4`
 
 The goals / steps of this project are the following:
 
